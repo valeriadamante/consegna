@@ -1,0 +1,68 @@
+% --------------------------------------------------------
+% for PDF/A-1b pdf file - +++ DO NOT REMOVE THIS +++
+% https://en.wikipedia.org/wiki/PDF/A
+\PassOptionsToPackage{hidelinks}{hyperref}
+\usepackage[a-1b]{pdfx}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	allbordercolors = white,
+	%linkbordercolor = {white},
+	%allcolors = black,
+	citecolor = black,
+	urlcolor = blue,
+	linkcolor = blue,
+	anchorcolor = black,
+	%citecolor = green,
+	filecolor = cyan,
+	menucolor = red,
+	%urlcolor = magenta,
+	%linkcolor=blue,
+	linktocpage=true
+}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{pdfpages}
+\usepackage{enumerate}
+\usepackage{amssymb}
+%\usepackage[top=45mm,bottom=35mm,inner=35mm,outer=25mm]{geometry} # hmarginratio=1:1,
+% \usepackage[top=25mm, bottom=25mm, left=25mm, right=25mm, columnsep=25pt]{geometry} % Document margins
+% \usepackage[top=25mm, bottom=25mm, left=20mm, right=20mm, columnsep=25pt,headsep=1cm,headheight=50.5pt,footskip=2cm]{geometry} % Document margins
+\usepackage[top=3.5cm, bottom=2.5cm, left=20mm, right=20mm, marginparsep=0.35cm,headsep=1cm,headheight=1.6cm,footskip=2cm]{geometry}
+\usepackage{setspace}
+% \setstretch{1.}
+\usepackage{url}
+% \usepackage{comment}
+
+% \renewcommand{\refname}{}
+\usepackage{fancyhdr}
+\setlength{\headheight}{50.5pt}
+% \setlength{\footskip}{16mm}
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot{}
+
+\fancypagestyle{default_page}{
+	\fancyhead{}
+	\fancyfoot{}
+	\fancyhead[L]{\includegraphics[width=0.3\textwidth]{/Users/Valeria/Documents/consegna/LOGO_UNISI_ORIZZONTALE_NERO_0.pdf}}
+	\fancyhead[R]{
+		\textit{Dipartimento di Scienze Fisiche, della Terra e dell’Ambiente} \\ \textbf{Dottorato in Fisica Sperimentale}
+		}
+	% \fancyfoot[L,R]{}
+	% \fancyfoot[C]{Via Roma, 56 $-$ 53100 Siena (Italia)}
+	\renewcommand{\headrulewidth}{0.1mm}
+	% \renewcommand{\footrulewidth}{0.1mm}
+}
+
+% \fancyfoot[L]{Valeria D'Amante}
+% \fancyfoot[C]{E1A}
+
+
+%-------Definition of \myrule--
+\def\myrule#1#2#3{{\hskip#1in{\hbox to #2in%
+{\leaders\hbox to .00625in{\hfil.\hfil}\hfill}}%
+\par\hskip#1in#3\vskip1cm}}
+%------------------------------
