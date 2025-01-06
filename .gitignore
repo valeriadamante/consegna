@@ -3,7 +3,9 @@
 *.blg
 *.log
 *.out
-*.pdf
+# *.pdf
+*.png
+*.zip
 *.synctex.gz
 *.xmpi
 *.docx
