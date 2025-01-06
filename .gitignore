@@ -11,6 +11,7 @@
 *.xmpi
 *.docx
 .DS_Store
+.gitignore
 LOGO_UNISI_ORIZZONTALE_NERO_0.pdf
 LOGO_UNISI_VERTICALE_NERO_0.pdf
 FinalReport/FinalReport_FirmatoValeria.pdf
