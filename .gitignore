@@ -7,3 +7,4 @@
 *.synctex.gz
 *.xmpi
 *.docx
+.DS_Store
